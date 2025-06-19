@@ -1,0 +1,83 @@
+/* FONTS */
+@font-face{
+    font-family: "BSansL";
+    src: url(fonts/BloggerSans-LightItalic.ttf) format("truetype");
+}
+@font-face{
+    font-family: "BSansM";
+    src: url(fonts/BloggerSans-MediumItalic.ttf) format("truetype");
+}
+@font-face{
+    font-family: "GBook";
+    src: url(fonts/Garet-Book.ttf) format("truetype");
+}
+@font-face{
+    font-family: "GHeavy";
+    src: url(fonts/Garet-Heavy.ttf) format("truetype");
+}
+@font-face{
+    font-family: "Glacial";
+    src: url(fonts/GlacialIndifference.ttf) format("truetype");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    font-family: "Poppins";
+}
+
+.submit {
+    margin-top: 10vh;
+    padding-top: 1vh;
+    padding-bottom: 1px;
+    padding-left: 28px;
+    padding-right: 28px;
+    background-color: #2E8B57;
+    color: #ffffff;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: "Poppins";
+    font-size: 17px;
+    height: 8vh;
+    transition: all 0.5s;
+}
+
+.submit:hover {
+    background-color: #10301E;
+}
+
+.row {
+    justify-content: center;
+    align-items: center;
+}
+
+.activity-history {
+    margin-top: 20px;
+    padding-top: 2vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    padding-bottom: 10vh;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    height: 50vh;
+    overflow-y: auto;
+    font-family: "Poppins";
+}
+
+.activity-history::-webkit-scrollbar {
+    width: 0;
+}
+
+.activity-history h3 {
+    margin-bottom: 3vh;
+}
+
+.activity-item {
+    margin-top: 10px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    padding: 8px;
+    border-radius: 5px;
+}
