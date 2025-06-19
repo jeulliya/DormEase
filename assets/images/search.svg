@@ -1,0 +1,41 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
+<svg width="73px" height="73px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+<g id="SVGRepo_bgCarrier" stroke-width="0"/>
+
+<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+
+<g id="SVGRepo_iconCarrier"> 
+
+<style>
+ @keyframes searchAnimation {
+      0%, 100% {
+        transform: translate(0, 2px);
+      }
+      25% {
+        transform: translate(-2px, 2px);
+      }
+      50% {
+        transform: translate(-2px, -2px);
+      }
+      75% {
+        transform: translate(-2px, 0);
+      }
+    }
+
+    #search-icon {
+      animation: searchAnimation 3s linear infinite;
+      transform-origin: center;
+      transition: transform-origin 1s;
+    }
+
+</style>
+<g id="search-icon">
+<path  opacity="0.1" d="M19 11C19 15.4183 15.4183 19 11 19C6.58172 19 3 15.4183 3 11C3 6.58172 6.58172 3 11 3C15.4183 3 19 6.58172 19 11Z" fill="#323232"/> 
+<path d="M17 17L21 21" stroke="#323232" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> 
+<path d="M19 11C19 15.4183 15.4183 19 11 19C6.58172 19 3 15.4183 3 11C3 6.58172 6.58172 3 11 3C15.4183 3 19 6.58172 19 11Z" stroke="#323232" stroke-width="2"/> </g>
+</g>
+
+</svg>
