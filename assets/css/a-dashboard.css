@@ -1,0 +1,53 @@
+/* FONTS */
+@font-face{
+    font-family: "BSansL";
+    src: url(assets/fonts/BloggerSans-LightItalic.ttf) format("truetype");
+  }
+  @font-face{
+    font-family: "BSansM";
+    src: url(assets/fonts/BloggerSans-MediumItalic.ttf) format("truetype");
+  }
+  @font-face{
+    font-family: "GBook";
+    src: url(assets/fonts/Garet-Book.ttf) format("truetype");
+  }
+  @font-face{
+    font-family: "GHeavy";
+    src: url(assets/fonts/Garet-Heavy.ttf) format("truetype");
+  }
+  @font-face{
+    font-family: "Glacial";
+    src: url(assets/fonts/GlacialIndifference.ttf) format("truetype");
+  }
+  @font-face{
+  font-family: "Poppins";
+  src: url(assets/fonts/Poppins-Regular.ttf) format("truetype");
+  }
+  
+  * {
+    font-family: "Poppins";
+  }
+
+/* ***** Mini Box Styles ***** */
+#dashboard .mini-box {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  #dashboard .mini-box-content {
+    text-align: center;
+  }
+  
+  #dashboard .mini-box h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  #dashboard .mini-box p {
+    font-size: 14px;
+    color: #666;
+  }
